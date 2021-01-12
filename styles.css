@@ -1,0 +1,109 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    color: white;
+    font-family: "Open Sans";
+    background-size: fill;
+    background-repeat: no-repeat;
+    
+}
+
+#logo{
+    position: absolute;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    left: 3%;
+}
+
+#mockups{
+    Position: relative;
+    top: 150px;
+    left: 3%;
+    width: 45%;
+    
+}
+
+/* container */
+
+.container{
+    position: relative;
+    width: 45%;
+    left: 55%;
+    bottom: 325px;
+    
+}
+
+h1{
+    font-family: "Poppins";
+    font-size: 3rem;
+}
+
+.container p{
+    font-size: 18px;
+}
+
+.btn {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #674BAF;
+    font-family: 'Open Sans';
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 3%;
+    
+    background-color: #F0F4F8;
+    -webkit-box-shadow: 1px 1px 1px 0 #000000;
+    -moz-box-shadow: 1px 1px 1px 0 #000000;
+    box-shadow: 3px 3px 10px hsl(257, 43%, 34%);
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+ }
+ 
+ .btn:hover {
+    background: #E882E8;
+    color: white;
+    border: solid #000000 1px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+ }
+
+ /* icons */
+
+ .icons{
+     position: relative;
+     text-align: right;
+     bottom: 200px;
+     padding-right: 50px;
+ }
+.icons a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+a:hover{
+    color: #e882e8;
+    border: 1px solid #e882e8;
+}
+#facebook{
+    padding: 9px 13px;
+}
+/* footer */
+
+footer{
+    position: relative;
+    bottom: 200px;
+}
+
